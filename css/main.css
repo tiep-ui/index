@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.container{
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header{
+	width: 1280px;
+	height: 726px;
+	background-color: bisque;
+	position: relative;
+	background: rgb(241,245,254);
+	background: radial-gradient(circle, rgba(241,245,254,1) 0%, rgba(196,199,208,1) 100%);
+}
+nav{
+	width: 1280px;
+	height: 100px;
+	
+	position: relative;
+}
+nav a{
+	float: left;
+	text-decoration: none;
+	color: #626262;
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	margin-left: 60px;
+}
+nav img{
+	float: left;
+}
+
+nav a:hover
+{
+	color: #69c2d2;
+}
+section{
+	width: 550px;
+	height: 530px;
+
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+}
+article{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+aside{
+	width: 300px;
+	height: 300px;
+
+}
+main{
+	width: 1280px;
+	height: 730px;
+}
+#b_learn{
+	animation:animated_div 5s 1;
+-moz-animation:animated_div 5s 1;
+-webkit-animation:animated_div 5s 1;
+-o-animation:animated_div 5s 1;
+position: relative;
+-webkit-border-radius:5px;
+}
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(30deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(60deg);left:500px;}
+100% {transform: rotate(-360deg);left:100px;}
+}
+#dancer{
+	animation:dancer 2s 1;
+-moz-animation:dancer 2s 1;
+-webkit-animation:dancer 5s 1;
+-o-animation:dancer 2s 1;
+position: relative;
+-webkit-border-radius:5px;
+}
+@keyframes dancer
+{
+0% {transform: rotate(0deg); transform: scale(0)}
+100% {transform: rotate(-360deg); transform: scale(1)}
+}
+#mau{
+	animation-name: mau;
+  animation-duration: 4s;
+}
+@keyframes mau {
+  0%  {opacity: 0;}
+ 
+  100% {opacity: 1;}
+}
+#we{
+	 position: relative;
+	 animation-name: we;
+  animation-duration: 2s;
+}
+@keyframes we {
+  0%   { left:-2000px;;}
+  100% {left:0px;}
+}
+
+#ener{
+	 position: relative;
+	 animation-name: ener;
+  animation-duration: 2s;
+}
+@keyframes ener {
+  0%   { right:-2000px;;}
+  100% {right:0px;}
+}
+
+#envi{
+	 position: relative;
+	 animation-name: envi;
+  animation-duration: 3s;
+}
+@keyframes envi {
+  0%   { left:-2000px;;}
+  100% {left:0px;}
+}
+#getfast{
+	position: relative;
+	 animation-name: envi;
+  animation-duration: 3s;
+}
+#b_learn:hover{
+	background-color: #5ac8d7;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
